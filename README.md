@@ -7,9 +7,9 @@ In the root of the project, run `. venv/bin/activate` (UNIX) or `venv\Scripts\ac
 
 ## Set env vars
 
-In the root of the project, set env vars to the following values: (UNIX: use `export`; Win: use `set`)
-	- FLASK_APP=flaskr
-	- FLASK_ENV=development
+In the root of the project, set env vars to the following values: (UNIX: use `export`; Win: use `set`)  
+- `FLASK_APP=flaskr`
+- `FLASK_ENV=development`
 
 
 ## Initiate DB
@@ -24,4 +24,6 @@ Run the app using `flask run`.
 
 ## Test
 
-In the root of the project, run `python -m pytest tests/`. Depending on your OS, you may have to use `python3` command instead.
+In the root of the project, run `python -m pytest tests/`.  
+  
+Depending on your OS, you may have to use `python3` command instead.
